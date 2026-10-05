@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+.medusa/
+.next/
+**/.next/
+**/build
+**/dist
+**/out/
+.turbo
+coverage
+
+# Env & secrets
+.env
+**/.env
+**/.env.local
+**/.env.*.local
+*.pem
+
+# Tooling
+.claude/
+.vercel
+.vscode
+.yarn
+
+# OS
+.DS_Store
+**/.DS_Store
+._*
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript incremental cache
+*.tsbuildinfo
